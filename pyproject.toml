@@ -20,7 +20,10 @@ classifiers = [
 ]
 
 [project.optional-dependencies]
-dev = ["ruff"]
+dev = [
+    "ruff",
+    "build",
+]
 
 [project.scripts]
 vulturenb = "vulturenb.cli:main"
