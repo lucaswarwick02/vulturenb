@@ -23,6 +23,7 @@ classifiers = [
 dev = [
     "ruff",
     "build",
+    "twine",
 ]
 
 [project.scripts]
